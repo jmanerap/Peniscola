@@ -1,0 +1,177 @@
+{
+  "communities": {
+    "0": [
+      "app_chatgpt_auth",
+      "app_chatgpt_auth_chatgptsigninpath",
+      "app_chatgpt_auth_chatgptsignoutpath",
+      "app_chatgpt_auth_chatgptuser",
+      "app_chatgpt_auth_getchatgptuser",
+      "app_chatgpt_auth_isreservedauthpath",
+      "app_chatgpt_auth_requirechatgptuser",
+      "app_chatgpt_auth_safedecodeuricomponent",
+      "app_chatgpt_auth_saferelativereturnpath"
+    ],
+    "1": [
+      "db_index",
+      "db_index_getdb",
+      "db_schema",
+      "db_schema_notes",
+      "notes_route",
+      "notes_route_get",
+      "notes_route_post",
+      "notes_route_torouteerrormessage"
+    ],
+    "2": [
+      "app_page",
+      "app_page_home",
+      "app_page_metadata",
+      "sites_preview_skeletonpreview",
+      "sites_preview_skeletonpreview_articlewidths",
+      "sites_preview_skeletonpreview_sidebarwidths",
+      "sites_preview_skeletonpreview_skeletonpreview"
+    ],
+    "3": [
+      "app_layout",
+      "app_layout_geistmono",
+      "app_layout_geistsans",
+      "app_layout_metadata",
+      "app_layout_rootlayout"
+    ],
+    "4": [
+      "tests_rendered_html_test",
+      "tests_rendered_html_test_previewroot",
+      "tests_rendered_html_test_render",
+      "tests_rendered_html_test_templateroot"
+    ],
+    "5": [
+      "worker_index",
+      "worker_index_env",
+      "worker_index_executioncontext",
+      "worker_index_worker"
+    ],
+    "6": [
+      "eslint_config",
+      "eslint_config_eslintconfig"
+    ],
+    "7": [
+      "next_config",
+      "next_config_nextconfig"
+    ],
+    "8": [
+      "postcss_config",
+      "postcss_config_config"
+    ],
+    "9": [
+      "vite_config",
+      "vite_config_localbindingconfig"
+    ],
+    "10": [
+      "drizzle_config"
+    ],
+    "11": [
+      "next_env_d"
+    ]
+  },
+  "cohesion": {
+    "0": 0.3888888888888889,
+    "1": 0.42857142857142855,
+    "2": 0.3333333333333333,
+    "3": 0.4,
+    "4": 0.5,
+    "5": 0.5,
+    "6": 1,
+    "7": 1,
+    "8": 1,
+    "9": 1,
+    "10": 1,
+    "11": 1
+  },
+  "gods": [
+    {
+      "id": "app_chatgpt_auth_saferelativereturnpath",
+      "label": "safeRelativeReturnPath()",
+      "edges": 4,
+      "degree": 4
+    },
+    {
+      "id": "app_chatgpt_auth_getchatgptuser",
+      "label": "getChatGPTUser()",
+      "edges": 3,
+      "degree": 3
+    },
+    {
+      "id": "app_chatgpt_auth_requirechatgptuser",
+      "label": "requireChatGPTUser()",
+      "edges": 3,
+      "degree": 3
+    },
+    {
+      "id": "app_chatgpt_auth_chatgptsigninpath",
+      "label": "chatGPTSignInPath()",
+      "edges": 3,
+      "degree": 3
+    },
+    {
+      "id": "notes_route_torouteerrormessage",
+      "label": "toRouteErrorMessage()",
+      "edges": 3,
+      "degree": 3
+    },
+    {
+      "id": "sites_preview_skeletonpreview_skeletonpreview",
+      "label": "SkeletonPreview()",
+      "edges": 2,
+      "degree": 2
+    },
+    {
+      "id": "app_chatgpt_auth_chatgptsignoutpath",
+      "label": "chatGPTSignOutPath()",
+      "edges": 2,
+      "degree": 2
+    },
+    {
+      "id": "app_chatgpt_auth_isreservedauthpath",
+      "label": "isReservedAuthPath()",
+      "edges": 2,
+      "degree": 2
+    },
+    {
+      "id": "app_chatgpt_auth_safedecodeuricomponent",
+      "label": "safeDecodeURIComponent()",
+      "edges": 2,
+      "degree": 2
+    },
+    {
+      "id": "db_index_getdb",
+      "label": "getDb()",
+      "edges": 2,
+      "degree": 2
+    }
+  ],
+  "surprises": [],
+  "questions": [
+    {
+      "type": "isolated_nodes",
+      "question": "What connects `sidebarWidths`, `articleWidths`, `ChatGPTUser` to the rest of the system?",
+      "why": "16 weakly-connected nodes found - possible documentation gaps or missing edges."
+    }
+  ],
+  "labels": {
+    "0": "Community 0",
+    "1": "Community 1",
+    "2": "Community 2",
+    "3": "Community 3",
+    "4": "Community 4",
+    "5": "Community 5",
+    "6": "Community 6",
+    "7": "Community 7",
+    "8": "Community 8",
+    "9": "Community 9",
+    "10": "Community 10",
+    "11": "Community 11"
+  },
+  "tokens": {
+    "input": 0,
+    "output": 0
+  }
+}

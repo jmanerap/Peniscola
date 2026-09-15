@@ -1,0 +1,46 @@
+{
+  "files": {
+    "code": [
+      "app/_sites-preview/SkeletonPreview.tsx",
+      "app/chatgpt-auth.ts",
+      "app/layout.tsx",
+      "app/page.tsx",
+      "db/index.ts",
+      "db/schema.ts",
+      "drizzle.config.ts",
+      "eslint.config.mjs",
+      "examples/d1/app/api/notes/route.ts",
+      "examples/d1/db/schema.ts",
+      "next-env.d.ts",
+      "next.config.ts",
+      "postcss.config.mjs",
+      "tests/rendered-html.test.mjs",
+      "vite.config.ts",
+      "worker/index.ts"
+    ],
+    "document": [],
+    "paper": [],
+    "image": [],
+    "video": []
+  },
+  "total_files": 16,
+  "total_words": 1777,
+  "needs_graph": false,
+  "warning": "Corpus is ~1,777 words - fits in a single context window. You may not need a graph.",
+  "skipped_sensitive": [],
+  "graphifyignore_patterns": 52,
+  "scope": {
+    "requested_mode": "all",
+    "resolved_mode": "all",
+    "source": "configured-default",
+    "root": ".",
+    "candidate_count": null,
+    "included_count": 16,
+    "excluded_untracked_count": 0,
+    "excluded_ignored_count": 0,
+    "excluded_sensitive_count": 0,
+    "missing_committed_count": 0,
+    "warnings": [],
+    "recommendation": null
+  }
+}
