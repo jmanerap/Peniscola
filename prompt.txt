@@ -1,0 +1,370 @@
+Quiero que crees una aplicación web móvil, diseñada principalmente para abrirse desde Safari en un iPhone, para una escapada romántica en pareja.
+
+La aplicación debe ser visualmente atractiva, interactiva, sencilla de usar, fácil de leer y con una estética romántica moderna, elegante y nada recargada. Debe sentirse más como una app móvil que como una web tradicional.
+
+
+CONTEXTO DEL VIAJE
+
+Destino: Peñíscola.
+
+Duración:
+
+	•	Viernes 18 de septiembre de 2026 a las 16:00: salida desde Callosa d’en Sarrià.
+	•	Domingo 20 de septiembre de 2026 aproximadamente a las 20:00: llegada a Elche.
+
+Es nuestro primer viaje romántico juntos y la finalidad de la aplicación es acompañarnos durante todo el fin de semana, mostrarnos el itinerario, proponernos retos, guardar recuerdos, subir fotos y textos, y desbloquear sorpresas a medida que avanza el viaje.
+
+DISEÑO
+
+Diseña la interfaz mobile-first específicamente para iPhone y Safari.
+
+Quiero:
+
+	•	Diseño elegante, romántico y minimalista.
+	•	Colores cálidos, crema, beige, blanco roto y pequeños detalles en rojo vino/rosa apagado.
+	•	Bordes redondeados.
+	•	Sombras suaves.
+	•	Tipografía elegante para títulos y muy legible para textos.
+	•	Animaciones suaves.
+	•	Transiciones entre pantallas.
+	•	Iconos sencillos.
+	•	Nada excesivamente cursi.
+	•	Buena legibilidad al sol.
+	•	Respeto por el safe-area del iPhone, notch y Dynamic Island.
+
+La navegación inferior tendrá:
+
+Inicio
+Itinerario
+Retos
+Diario
+Nosotros
+
+PANTALLA DE INICIO
+
+Crear una portada con:
+
+“Nuestro primer viaje a Peñíscola”
+
+“18–20 septiembre 2026”
+
+Añadir una cuenta atrás hasta el viernes 18 de septiembre de 2026 a las 16:00.
+
+Antes del viaje debe mostrar:
+“Faltan X días, X horas y X minutos”.
+
+Una vez iniciado:
+“Ya estamos de viaje ❤️”
+
+Mostrar también:
+
+	•	Próxima actividad.
+	•	Hora de la próxima actividad.
+	•	Progreso del viaje.
+	•	Retos completados.
+	•	Número de recuerdos guardados.
+	•	Botón para acceder rápidamente al diario.
+
+Añadir un pequeño mensaje que cambie según la hora:
+
+	•	Buenos días.
+	•	Hora de explorar.
+	•	Se acerca el atardecer.
+	•	Hora de guardar recuerdos del día.
+
+EXPLICACIÓN INICIAL
+
+La primera vez que se abra la aplicación debe aparecer una pequeña introducción explicando su funcionamiento.
+
+Texto aproximado:
+
+“Esta web va a acompañarnos durante nuestro primer viaje juntos.
+
+Aquí encontrarás nuestros planes, retos, recuerdos y alguna que otra sorpresa.
+
+No todo estará disponible desde el principio.
+
+Algunas cosas aparecerán cuando llegue su momento y otras tendrás que descubrirlas.”
+
+Añadir botón:
+“Empezar el viaje”.
+
+ITINERARIO
+
+Crear una sección visual organizada por días:
+
+VIERNES 18
+SÁBADO 19
+DOMINGO 20
+
+Mostrar cada día mediante una timeline vertical.
+
+Cada actividad debe poder tener:
+
+	•	Hora.
+	•	Nombre.
+	•	Descripción.
+	•	Ubicación.
+	•	Imagen opcional.
+	•	Botón para abrir ubicación en Apple Maps o Google Maps.
+	•	Estado: pendiente / disponible / completada.
+
+Las actividades futuras deben aparecer ligeramente bloqueadas o difuminadas.
+
+Cuando llegue su hora se desbloquean automáticamente.
+
+Permitir marcar actividades como realizadas.
+
+Dejar los datos del itinerario en una estructura sencilla para poder modificarlos posteriormente.
+
+RETOS DE PAREJA 
+
+Crear una sección de retos que solamente puedan completarse juntos.
+
+No quiero retos individuales.
+
+Ejemplos:
+
+	1	Hacernos una foto con pose de padres de vacaciones.
+	2	Recrear una foto romántica exageradamente típica.
+	3	Encontrar el rincón más bonito de Peñíscola y hacernos una foto allí.
+	4	Comprar entre los dos un recuerdo absurdo de menos de 5 €.
+	5	Grabar un tik tok.
+
+Cada reto debe tener:
+
+	•	Nombre.
+	•	Descripción.
+	•	Icono.
+	•	Estado bloqueado/disponible/completado.
+	•	Botón “Completar reto”.
+	•	Posibilidad de añadir una fotografía como prueba.
+	•	Fecha y hora de finalización.
+
+Al completar ciertos retos se deben desbloquear nuevas sorpresas.
+
+Añadir una barra de progreso:
+“3 de 5 retos completados”.
+
+DESBLOQUEOS
+
+Quiero que algunas partes de la aplicación estén bloqueadas.
+
+Debe haber tres tipos de desbloqueo:
+
+	1	POR FECHA Y HORA
+
+Ejemplo:
+Una sorpresa no puede abrirse hasta el sábado a las 18:00.
+
+Antes de ese momento mostrar:
+“Todavía no es el momento.”
+
+	2	POR COMPLETAR RETOS
+
+Ejemplo:
+“Completa 3 retos para descubrir esta sorpresa.”
+
+	3	POR CÓDIGO SECRETO
+
+Crear pantallas donde haya que introducir un código.
+
+El código representará una fecha importante de nuestra relación.
+
+Formato posible:
+DDMMYY
+o
+DDMMYYYY.
+
+No mostrar directamente la respuesta.
+
+Mostrar pistas.
+
+Ejemplo:
+
+Pista 1:
+“Ese día empezó algo importante.”
+
+Pista 2:
+“No ocurrió durante este viaje.”
+
+Pista 3:
+“Piensa en nosotros.”
+
+Después de varios intentos incorrectos permitir mostrar otra pista.
+
+Añadir una pequeña animación cuando se introduce el código correcto.
+
+SOBRES MISTERIOSOS
+
+Cada día debe aparecer un “sobre” virtual.
+
+Visualmente debe parecer una tarjeta/sobre cerrado.
+
+Ejemplo:
+
+“Sobre del sábado”
+
+“No podrás abrirlo hasta mañana a las 10:00.”
+
+Cuando llegue el momento:
+“Abrir sobre”.
+
+Al pulsarlo realizar una animación y mostrar dentro:
+
+	•	un mensaje,
+	•	un reto,
+	•	una sorpresa,
+	•	una actividad,
+    o una pista.
+
+DIARIO DEL VIAJE
+
+Crear una sección estilo blog privado.
+
+Permitir crear publicaciones que contengan:
+
+	•	Fotografías.
+	•	Varias fotografías.
+	•	Texto.
+	•	Fecha y hora automática.
+	•	Ubicación opcional.
+	•	Título opcional.
+
+Las publicaciones deben mostrarse cronológicamente.
+
+Ejemplo:
+
+19 septiembre · 18:34
+
+“Nos hemos encontrado este rincón mientras paseábamos…”
+
+[Fotografía]
+
+Permitir editar y eliminar publicaciones.
+
+Permitir reaccionar a los recuerdos con:
+❤️
+😂
+🥹
+⭐
+
+FOTO DEL DÍA
+
+Cada noche permitir seleccionar una fotografía como:
+
+“Foto del día”.
+
+Debe existir una foto ganadora del:
+
+	•	Viernes.
+	•	Sábado.
+	•	Domingo.
+
+MOMENTO DEL DÍA
+
+Crear una pequeña sección al final de cada jornada.
+
+Pregunta:
+
+“¿Cuál ha sido tu momento favorito de hoy?”
+
+Debe permitir que cada miembro de la pareja escriba una respuesta.
+
+Las respuestas inicialmente pueden estar ocultas.
+
+Cuando ambos hayan escrito, mostrar las dos.
+
+PREGUNTAS DE PAREJA
+
+Crear tarjetas que aparezcan ocasionalmente.
+
+Ejemplos:
+
+“¿Qué momento nuestro repetirías infinitamente?”
+
+“¿Dónde te gustaría que fuera nuestro próximo viaje?”
+
+“¿Qué cosa pequeña que hago te hace feliz?”
+
+“¿Cuál es uno de tus recuerdos favoritos conmigo?”
+
+“¿Cómo nos imaginas dentro de diez años?”
+
+No mostrar todas las preguntas de golpe.
+
+Ir desbloqueándolas durante el viaje.
+
+ARQUITECTURA
+
+Construye la aplicación de forma que sea sencilla de mantener.
+
+Frontend:
+
+	•	React o Next.js.
+	•	TypeScript.
+	•	Diseño responsive.
+	•	Mobile-first.
+
+Backend:
+Utilizar Supabase.
+
+Necesito:
+
+	•	Base de datos.
+	•	Storage para fotografías.
+	•	Persistencia de publicaciones.
+	•	Persistencia de retos.
+	•	Persistencia de respuestas.
+	•	Persistencia de desbloqueos.
+
+No quiero que los datos importantes estén solamente guardados en localStorage porque la aplicación puede utilizarse desde dos dispositivos diferentes.
+
+Crear las tablas necesarias en Supabase.
+
+No necesito un sistema complejo de usuarios. La web no necesita Login. Todos los usuarios verán la misma info en la web
+
+Puedes crear un espacio privado para esta pareja mediante un código o identificador de viaje.
+
+PRIVACIDAD
+
+La aplicación es completamente privada.
+
+Las fotografías y textos no deben ser públicos.
+
+No debe existir un listado público de viajes.
+
+Crear una solución sencilla para que solamente quienes tengan acceso al viaje puedan ver el contenido.
+
+IMPORTANTE
+
+No quiero únicamente un diseño o prototipo visual.
+
+Quiero una aplicación web funcional.
+
+Genera:
+
+	•	estructura del proyecto,
+	•	componentes,
+	•	navegación,
+	•	base de datos,
+	•	lógica de desbloqueo,
+	•	subida de imágenes,
+	•	diario,
+	•	retos,
+	•	almacenamiento persistente,
+	•	diseño responsive.
+
+Utiliza datos ficticios inicialmente para las actividades que todavía no estén definidas.
+
+Organiza el código para que posteriormente sea sencillo modificar:
+
+	•	itinerario,
+	•	retos,
+	•	códigos secretos,
+	•	pistas,
+	•	fechas,
+	•	textos,
+	•	sorpresas.
+
+Prioriza especialmente la experiencia de uso desde un iPhone.
